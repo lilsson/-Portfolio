@@ -1,0 +1,51 @@
+
+/* header */
+body{
+    max-width: 1700px;
+    width: 100%;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1700px;
+    width: 100%;
+    padding: 30px;
+    background: linear-gradient(  #ffe0b3,  white);
+    font-size: 25px;
+    font-family: 'Irish Grover', cursive;
+    font-family: 'Oswald', sans-serif;
+    color: darkorange;
+}
+
+.nav-ul{
+    display: flex;
+    
+}
+.navul{
+    margin: 15px;
+}
+a {
+    color: black;
+   
+    
+}
+
+
+ /* burger */
+.toggle-burger{
+    position: absolute;
+    font-size: 35px;
+    color: darkorange;
+    top: 35px;
+    right: 20px;
+    display: none;
+}
+
+/* section */
+
+.imgcl{
+    height: calc(100% - 6.8rem);
+    width: 50%;
+    object-fit: cover;
+}
