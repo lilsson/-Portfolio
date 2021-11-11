@@ -1,8 +1,9 @@
 
 /* header */
 body{
-    max-width: 1700px;
-    width: 100%;
+    padding-top: 200px;
+    
+    
 }
 .nav-bar{
     display: flex;
@@ -16,11 +17,20 @@ body{
     font-family: 'Irish Grover', cursive;
     font-family: 'Oswald', sans-serif;
     color: darkorange;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
 }
 
 .nav-ul{
     display: flex;
     
+}
+.nav-ul :hover{
+    transition: all 1s ease-in-out;  
+    font-size: 40px;
+    text-decoration: underline;
 }
 .navul{
     margin: 15px;
@@ -44,8 +54,80 @@ a {
 
 /* section */
 
-.imgcl{
-    height: calc(100% - 6.8rem);
-    width: 50%;
-    object-fit: cover;
+
+.wraper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
 }
+.img-box{
+    width: 510px;
+    
+    
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+}
+img:hover {
+    opacity: 0.5;
+  }
+
+  .h31{
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 50px;
+      font-family: 'Pacifico', cursive;
+     
+  }
+
+  .sectionend{
+      margin-top: 50px;
+      background-color: #b34700;
+      /* height: 500px; */
+  }
+
+  .work{
+    padding-top: 100px;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    
+  }
+
+  .contactwraper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+  }
+
+  .details123 {
+    font-size: 40px;
+    margin-left: 20px;  
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .details123:hover {
+    transform: translateY(8px);
+  }
+  .day{
+      text-align: center;
+      padding: 100px;
+      font-size: 50px;
+      font-family: 'Special Elite', cursive;
+      text-shadow: darkorange;
+  }
+  #myDIV {
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {text-shadow: 10px 20px 30px darkorange;}
+  }
