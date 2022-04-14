@@ -54,7 +54,15 @@ a {
 
 /* section */
 
-
+.box001{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    
+}
 .box1{
     display: flex;
     justify-content: center;
